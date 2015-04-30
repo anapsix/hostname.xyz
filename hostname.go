@@ -13,7 +13,7 @@ import (
 var listenPort int
 
 func init() {
-	flag.IntVar(&listenPort, "port", 8080, "listen port") 
+  flag.IntVar(&listenPort, "port", 8080, "listen port")
   flag.Parse()
 }
 
